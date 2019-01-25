@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Front End</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<h1 id="header" class="w3-container w3-red w3-animate-zoom">Your Zoo</h1>
+<div id="instructions" class="selector w3-animate-zoom">Choose an Animal Type to Create</div>
+<div id="selectAnimals" class="selector w3-animate-zoom">
+    <select id="chooseAnimal">
+        <option value="1">Tiger</option>
+        <option value="2">Bear</option>
+        <option value="3">Unicorn</option>
+        <option value="4">Giraffe</option>
+        <option value="5">Bee</option>
+    </select>
+</div>
+<br>
+<div id="disclaimer" class="w3-container w3-red w3-animate-zoom">Animal Names MUST be Unique</div>
+<br>
+<div id="textBoxNamer" class="selector w3-animate-zoom">
+    <input type="text" id="nameAnimal" placeholder="Your Animal's Name"/>
+</div>
+<br>
+<div id="animalBtnHolder" class="selector w3-animate-zoom">
+    <button id="animalBtn" class="w3-button w3-ripple w3-red w3-border w3-border-white w3-round">Create Animal</button>
+</div>
+<br>
+<div class="selector w3-animate-zoom">Pick Food For Your Animals</div>
+<br>
+<div id="foodChoicesContainer" class="selector w3-animate-zoom">
+    <select id="foodChoices">
+        <option value="0">meat</option>
+        <option value="1">fish</option>
+        <option value="2">leaves</option>
+        <option value="3">marshmallows</option>
+        <option value="4">pollen</option>
+        <option value="5">sushi</option>
+        <option value="6">salad</option>
+    </select>
+</div>
+<br>
+<div id="feedBtnContainer" class="selector w3-animate-zoom">
+    <button id="feedAnimals" class="w3-button w3-ripple w3-red w3-border w3-border-white w3-round">Feed Your Animals</button>
+</div>
+<br>
+<div id="listYourAnimals" class="selector w3-animate-zoom">
+    <button id="animalLister" class="w3-button w3-ripple w3-red w3-border w3-border-white w3-round">List Animals</button>
+</div>
+<br>
+<div id="animalListHeader" class="w3-animate-zoom">Animals You've Created</div>
+<br>
+<div id="animalsCreated" class="w3-container w3-red w3-animate-zoom"></div>
+</body>
+</html>
+
